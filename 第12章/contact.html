@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Jay Script and the Domsters</title>
+	<script src="scripts/modernizr-1.6.min.js"></script>
+	<link rel="stylesheet" media="screen" href="styles/basic.css" />
+  </head>
+  <body>
+    <header>
+	  <img src="images/logo.gif" alt="Jay Skript and the Domsters" />
+	  <nav>
+	    <ul>
+	      <li><a href="index.html">Home</a></li>
+		  <li><a href="about.html">About</a></li>
+		  <li><a href="photos.html">Photos</a></li>
+		  <li><a href="live.html">Live</a></li>
+		  <li><a href="contact.html">Contact</a></li>
+	    </ul>
+	  </nav>
+	</header>
+	<article>
+	  <h1>联系乐队</h1>
+	  <form method="post" action="submit.html">
+	    <fieldset><!-- 定义围绕表单中元素的边框 -->
+		  <p>
+		    <label for="name">姓名：</label>
+			<input type="text" id="name" name="name"
+			placeholder="您的名字" required="required" />
+		  </p>
+		  <p>
+		    <label for="email">邮箱：</label>
+			<input type="email" id="email" name="email"
+			placeholder="您的邮箱地址" required="required" />
+		  </p>
+		  <p>
+		    <label for="message">内容：</label>
+			<textarea cols="45" rows="7" id="message"
+			name="message" required="required"
+			placeholder="在这里输入内容。"></textarea>
+		  </p>
+		  <input type="submit" value="发送" />
+		</fieldset>
+	  </form>
+	</article>
+  <script src="scripts/global.js"></script>
+  </body>
+</html>

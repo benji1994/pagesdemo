@@ -1,0 +1,86 @@
+body {
+	color: #555;
+	background-color: #F3F3F3;
+}
+/******************* index.html **************/
+.login {
+	color: rgb(0,0,0);
+}
+.expanded {
+	background-color: #2A2A2A;
+}
+#active-logo1 {
+	color: #FFF;
+	background-color:  #DE533A;
+}
+#active-logo1:hover {
+	background-color: #E78170;
+}
+.dropdown a:hover {
+	background-color: #E78170;
+}
+.tittle-container {
+	color: #E9816D;
+}
+.line {
+	background-color: #D5D5D5;
+}
+.title {
+	color: #2F2F2F;
+}
+.item {
+	color: #555;
+}
+/********************** longin ******************/
+.login-page .title {
+	color: #B1B1B1;
+	border-bottom-color: #EEE;
+}
+.login-page .title span {
+	background-color: #fff;
+}
+.login-page .title span a {
+	color: rgb(85, 85, 85);
+}
+.login-page form {
+	border-bottom-color: #EEE;
+}
+.add-on {
+	border-color: #ccc;
+}
+.span2 {
+	background-color: #fff;
+	color: #555;
+	border-color: #CCC;
+}
+#blue {
+	color: #FFF;
+	border-color: #15A7F0;
+	background-color: #049CDB;
+}
+#green {
+	color: #FFF;
+	border-color: rgb(107, 217, 91);
+	background-color: rgb(107, 217, 91);
+}
+.submit-button {
+	border-color: transparent;
+}
+.control-group span {
+	color: rgb(85, 85, 85);
+}
+.control-group a {
+	color: rgb(85, 85, 85);
+}
+.blue-a {
+	color: #15A7F0;
+}
+.login-page .login-sns p {
+	color: #999;
+}
+.login-page .sign-up-msg {
+	color: #9D9D9D;
+}
+.login-page .sign-up-msg a {
+	color: rgb(0,0,0);
+}

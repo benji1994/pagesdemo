@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="styles/basic.css" />
+		<title>简书</title>
+	</head>
+	<body style="background-color: #FFF" >
+		<div class="navbar-user">
+			<a class="login"  href="login_up.html">
+				<img src="images/longin-up2.png" width="16px" height="16px" />登录
+			</a>    
+			<a class="login" href="login_in.html">
+				<img src="images/longin-in2.png" width="16px" height="16px" />注册
+			</a>    
+		</div>
+		<div class="expanded">
+			<div class="dropdown">
+				<a href="index.html" id="active-logo1" class="active-logo">
+					<b>简</b>
+				</a>
+				<a class="active-logo">
+					<img src="images/dropdown1.png" width="27px" height="27px" />
+				</a>
+				<a class="active-logo">
+					<img src="images/dropdown2.png" width="27px" height="27px" />
+				</a>
+			</div>
+		</div>
+		<div class="login-container">
+			<div class="login-page">
+				<img class="login-logo" src="images/login-logo.png" />
+				<h4 class="title">
+					<span>
+						<a href="login_up.html">登录</a>
+						<b>·</b>
+						<a href="login_in.html">注册</a>
+					</span>
+				</h4>
+				<div class="sign-up">
+					<form>
+						<div class="input-prepend">
+							<img class="add-on" src="images/user.png" />
+							<input class="span2" type="text" placeholder="手机号码/电子邮件" value="" ></input>
+						</div>
+						<div class="input-prepend">
+							<img class="add-on" src="images/unlock.png" />
+							<input class="span2" type="password" placeholder="密码" value="" ></input>
+						</div>
+						<button class="submit-button" id="blue" >
+							<span>登录</span>
+						</button>
+						<div class="control-group">
+							<input class="check" type="checkbox" checked="checked" value="true" ></input>
+							<span>记住我</span>
+							<a href="#">忘记密码</a>
+							<div class="clear-float"></div>
+						</div>
+						<div>
+							<a class="blue-a" >海外手机登录</a>
+						</div>
+					</form>
+				</div>
+				<div class="login-sns">
+						<p>您还可以通过以下方式直接登录</p>
+						<img src="images/other.png" />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+	font-size: 14px;
+	font-family: "lucida grande","lucida sans unicode",
+	lucida,helvetica,"Hiragino Sans GB","Microsoft YaHei",
+	"WenQuanYi Micro Hei",sans-serif;
+	line-height: 20px;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	cursor: pointer;
+}
+/******************* index.html **************/
+.login {
+	margin-right: 8px;
+	text-decoration: none;
+}
+.login img {
+	vertical-align: middle;
+}
+.expanded {
+	overflow: visible;
+	margin-bottom: 20px;
+}
+.active-logo {
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+.tittle-container {
+	font-size: 36px;
+	line-height: 36px;
+	margin-bottom: 30px;
+}
+.line {
+	margin: 0px 20px;
+}
+.share-container {
+	margin-bottom: 40px;
+}
+.item {
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+}
+.item img {
+	vertical-align: middle;
+}
+.main-container {
+	text-align: center;
+}
+.slide {
+	margin-left: -2px;
+	margin-right: -2px;
+	margin-bottom: 30px;
+}
+/********************** longin ******************/
+.login-container {
+	margin-left: auto;
+	margin-right: auto;
+}
+.login-page {
+	text-align: center;
+}
+.login-page img {
+	vertical-align: middle;
+}
+.login-page .title {
+	margin: 70px auto 50px;
+}
+h4 {
+    font-size: 17.5px;
+	font-family: inherit;
+    font-weight: bold;
+    line-height: 20px;
+}
+.login-page .title b {
+	margin: 0px 10px;
+}
+.login-page form {
+	margin: 0px auto 25px;
+}
+.login-page .input-prepend {
+	margin-bottom: 15px;
+	vertical-align: middle;
+	font-size: 0px;
+	
+	white-space: nowrap;
+}
+.add-on {
+	line-height: 34px;
+	margin-right: -1px;
+	vertical-align: top;
+	text-align: center;
+	border-radius: 4px 0px 0px 4px;
+}
+.span2 {
+	float: none;
+	margin: 0px;
+	margin-left: 0px;
+	font-size: 14px;
+	margin-bottom: 0px;
+	vertical-align: middle;
+}
+.span2 {
+	border-width: 1px;
+	border-style: solid;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+	line-height: 20px;
+}
+button {
+	margin: 0px;
+	vertical-align: middle;
+	font-weight: normal;
+	line-height: 20px;
+}
+.submit-button {
+	font-size: 18px;
+}
+.control-group {
+	margin: 15px 0px 0px;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+.control-group .check {
+	line-height: 23px;
+	margin: 0px;
+	margin-top: 4px;
+	vertical-align: middle;
+}
+.control-group span,.control-group a {
+	line-height: 23px;
+	vertical-align: middle;
+}
+.control-group a {
+	opacity: 0.5;
+}
+.control-group a:hover {
+	opacity: 1;
+}
+.login-page .login-sns p {
+	margin-bottom: 15px;
+}
+.login-page .sign-up-msg {
+	margin: 10px 0px;
+	text-align: left;
+	font-size: 12px;
+	line-height: 20px;
+}
+.login-page .sign-up-msg a {
+	font-weight: bold;
+	text-decoration: none;
+}
